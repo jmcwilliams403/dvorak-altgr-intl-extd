@@ -1,5 +1,4 @@
-# dvorak-altgr-intl-extd
-# Dvorak AltGr International
+# Dvorak AltGr International Extended
 ![This is an image](kbddvagx.png)
 
 This is a Windows port of the Linux/Unix implementation of Dvorak International, with dead keys moved to the AltGr and AltGr+Shift modifier states.<br>
