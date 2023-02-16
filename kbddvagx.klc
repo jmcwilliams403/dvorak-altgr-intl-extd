@@ -31,7 +31,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 04	3		0	3	0023	-1	00b3	00af@		// DIGIT THREE, NUMBER SIGN, <none>, SUPERSCRIPT THREE, MACRON
 05	4		0	4	0024	-1	00a3	00a4		// DIGIT FOUR, DOLLAR SIGN, <none>, POUND SIGN, CURRENCY SIGN
 06	5		0	5	0025	-1	20ac	00b8@		// DIGIT FIVE, PERCENT SIGN, <none>, EURO SIGN, CEDILLA
-07	6		0	6	005e	-1	00bc	02c6@		// DIGIT SIX, CIRCUMFLEX ACCENT, <none>, VULGAR FRACTION ONE QUARTER, CIRCUMFLEX
+07	6		0	6	005e	-1	00bc	005e@		// DIGIT SIX, CIRCUMFLEX ACCENT, <none>, VULGAR FRACTION ONE QUARTER, CIRCUMFLEX
 08	7		0	7	0026	-1	00bd	031b@		// DIGIT SEVEN, AMPERSAND, <none>, VULGAR FRACTION ONE HALF, HORN
 09	8		0	8	002a	-1	00be	02db@		// DIGIT EIGHT, ASTERISK, <none>, VULGAR FRACTION THREE QUARTERS, OGONEK
 0a	9		0	9	0028	-1	2018	02d8@		// DIGIT NINE, LEFT PARENTHESIS, <none>, LEFT SINGLE QUOTATION MARK, BREVE
@@ -61,7 +61,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 26	N		5	n	N	-1	00f1	00d1		// LATIN SMALL LETTER N, LATIN CAPITAL LETTER N, <none>, LATIN SMALL LETTER N WITH TILDE, LATIN CAPITAL LETTER N WITH TILDE
 27	S		1	s	S	-1	00df	00a7		// LATIN SMALL LETTER S, LATIN CAPITAL LETTER S, <none>, LATIN SMALL LETTER SHARP S, SECTION SIGN
 28	OEM_MINUS	0	002d	005f	-1	00a5	0323@		// HYPHEN-MINUS, LOW LINE, <none>, YEN SIGN, BELOWDOT
-29	OEM_3		0	0060	007e	-1	0060@	02dc@		// GRAVE ACCENT, TILDE, <none>, GRAVE, TILDE
+29	OEM_3		0	0060	007e	-1	0060@	007e@		// GRAVE ACCENT, TILDE, <none>, GRAVE, TILDE
 2b	OEM_5		0	005c	007c	001c	00ac	00a6		// REVERSE SOLIDUS, VERTICAL LINE, INFORMATION SEPARATOR FOUR, NOT SIGN, BROKEN BAR
 2c	OEM_1		0	003b	003a	-1	00b6	00b0		// SEMICOLON, COLON, <none>, PILCROW SIGN, DEGREE SIGN
 2d	Q		5	q	Q	-1	00e4	00c4		// LATIN SMALL LETTER Q, LATIN CAPITAL LETTER Q, <none>, LATIN SMALL LETTER A WITH DIAERESIS, LATIN CAPITAL LETTER A WITH DIAERESIS
@@ -159,7 +159,7 @@ DEADKEY	00b8
 031b	00b8	// ◌̛ -> ¸
 0323	00b8	// ◌̣ -> ¸
 
-DEADKEY	02c6
+DEADKEY	005e
 
 0020	005e	//   -> ^
 0028	207d	// ( -> ⁽
@@ -211,10 +211,10 @@ DEADKEY	02c6
 00e1	1ea5	// á -> ấ
 00e9	1ebf	// é -> ế
 00f3	1ed1	// ó -> ố
-02c6	02c6	// ˆ -> ˆ
-0309	02c6	// ◌̉ -> ˆ
-031b	02c6	// ◌̛ -> ˆ
-0323	02c6	// ◌̣ -> ˆ
+005e	005e	// ^ -> ^
+0309	005e	// ◌̉ -> ^
+031b	005e	// ◌̛ -> ^
+0323	005e	// ◌̣ -> ^
 
 DEADKEY	031b
 
@@ -378,13 +378,11 @@ DEADKEY	031b
 00fe	00fe	// þ -> þ
 0152	0152	// Œ -> Œ
 0153	0153	// œ -> œ
-02c6	02c6	// ˆ -> ˆ
 02c7	02c7	// ˇ -> ˇ
 02d8	02d8	// ˘ -> ˘
 02d9	02d9	// ˙ -> ˙
 02da	02da	// ˚ -> ˚
 02db	02db	// ˛ -> ˛
-02dc	02dc	// ˜ -> ˜
 02dd	02dd	// ˝ -> ˝
 0309	002f	// ◌̉ -> /
 031b	031b	// ◌̛ -> ◌̛
@@ -817,13 +815,11 @@ DEADKEY	0309
 00fe	00fe	// þ -> þ
 0152	0152	// Œ -> Œ
 0153	0153	// œ -> œ
-02c6	02c6	// ˆ -> ˆ
 02c7	02c7	// ˇ -> ˇ
 02d8	02d8	// ˘ -> ˘
 02d9	02d9	// ˙ -> ˙
 02da	02da	// ˚ -> ˚
 02db	02db	// ˛ -> ˛
-02dc	02dc	// ˜ -> ˜
 02dd	02dd	// ˝ -> ˝
 0309	0309	// ◌̉ -> ◌̉
 031b	0026	// ◌̛ -> &
@@ -997,13 +993,11 @@ DEADKEY	0323
 00fe	00fe	// þ -> þ
 0152	0152	// Œ -> Œ
 0153	0153	// œ -> œ
-02c6	02c6	// ˆ -> ˆ
 02c7	02c7	// ˇ -> ˇ
 02d8	02d8	// ˘ -> ˘
 02d9	02d9	// ˙ -> ˙
 02da	02da	// ˚ -> ˚
 02db	02db	// ˛ -> ˛
-02dc	02dc	// ˜ -> ˜
 02dd	02dd	// ˝ -> ˝
 0309	002f	// ◌̉ -> /
 031b	0026	// ◌̛ -> &
@@ -1044,7 +1038,7 @@ DEADKEY	0060
 031b	0060	// ◌̛ -> `
 0323	0060	// ◌̣ -> `
 
-DEADKEY	02dc
+DEADKEY	007e
 
 0020	007e	//   -> ~
 002d	2243	// - -> ≃
@@ -1074,10 +1068,10 @@ DEADKEY	02dc
 00f3	1e4d	// ó -> ṍ
 00f6	1e4f	// ö -> ṏ
 00fa	1e79	// ú -> ṹ
-02dc	02dc	// ˜ -> ˜
-0309	02dc	// ◌̉ -> ˜
-031b	02dc	// ◌̛ -> ˜
-0323	02dc	// ◌̣ -> ˜
+007e	007e	// ~ -> ~
+0309	007e	// ◌̉ -> ~
+031b	007e	// ◌̛ -> ~
+0323	007e	// ◌̣ -> ~
 
 
 KEYNAME
@@ -1164,7 +1158,7 @@ KEYNAME_DEAD
 02dd	"DOUBLEACUTE"
 00af	"MACRON"
 00b8	"CEDILLA"
-02c6	"CIRCUMFLEX"
+005e	"CIRCUMFLEX"
 031b	"HORN"
 02db	"OGONEK"
 02d8	"BREVE"
@@ -1176,7 +1170,7 @@ KEYNAME_DEAD
 0309	"HOOK"
 0323	"BELOWDOT"
 0060	"GRAVE"
-02dc	"TILDE"
+007e	"TILDE"
 
 
 DESCRIPTIONS
