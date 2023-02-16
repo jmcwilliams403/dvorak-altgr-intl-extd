@@ -28,7 +28,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 
 02	1		0	1	0021	-1	00b9	00a1		// DIGIT ONE, EXCLAMATION MARK, <none>, SUPERSCRIPT ONE, INVERTED EXCLAMATION MARK
 03	2		0	2	0040	-1	00b2	02dd@		// DIGIT TWO, COMMERCIAL AT, <none>, SUPERSCRIPT TWO, DOUBLEACUTE
-04	3		0	3	0023	-1	00b3	02c9@		// DIGIT THREE, NUMBER SIGN, <none>, SUPERSCRIPT THREE, MACRON
+04	3		0	3	0023	-1	00b3	00af@		// DIGIT THREE, NUMBER SIGN, <none>, SUPERSCRIPT THREE, MACRON
 05	4		0	4	0024	-1	00a3	00a4		// DIGIT FOUR, DOLLAR SIGN, <none>, POUND SIGN, CURRENCY SIGN
 06	5		0	5	0025	-1	20ac	00b8@		// DIGIT FIVE, PERCENT SIGN, <none>, EURO SIGN, CEDILLA
 07	6		0	6	005e	-1	00bc	02c6@		// DIGIT SIX, CIRCUMFLEX ACCENT, <none>, VULGAR FRACTION ONE QUARTER, CIRCUMFLEX
@@ -91,7 +91,7 @@ DEADKEY	02dd
 031b	02dd	// ◌̛ -> ˝
 0323	02dd	// ◌̣ -> ˝
 
-DEADKEY	02c9
+DEADKEY	00af
 
 0020	00aF	//   -> ¯
 0041	0100	// A -> Ā
@@ -123,10 +123,10 @@ DEADKEY	02c9
 00f3	1e53	// ó -> ṓ
 00f6	022b	// ö -> ȫ
 00fc	01d6	// ü -> ǖ
-02c9	02c9	// ˉ -> ˉ
-0309	02c9	// ◌̉ -> ˉ
-031b	02c9	// ◌̛ -> ˉ
-0323	02c9	// ◌̣ -> ˉ
+00af	00af	// ¯ -> ¯
+0309	00af	// ◌̉ -> ¯
+031b	00af	// ◌̛ -> ¯
+0323	00af	// ◌̣ -> ¯
 
 DEADKEY	00b8
 
@@ -329,6 +329,7 @@ DEADKEY	031b
 00ab	00ab	// « -> «
 00ac	00ac	// ¬ -> ¬
 00ae	00ae	// ® -> ®
+00af	00af	// ¯ -> ¯
 00b0	00b0	// ° -> °
 00b2	00b2	// ² -> ²
 00b3	00b3	// ³ -> ³
@@ -379,7 +380,6 @@ DEADKEY	031b
 0153	0153	// œ -> œ
 02c6	02c6	// ˆ -> ˆ
 02c7	02c7	// ˇ -> ˇ
-02c9	02c9	// ˉ -> ˉ
 02d8	02d8	// ˘ -> ˘
 02d9	02d9	// ˙ -> ˙
 02da	02da	// ˚ -> ˚
@@ -768,6 +768,7 @@ DEADKEY	0309
 00ab	00ab	// « -> «
 00ac	00ac	// ¬ -> ¬
 00ae	00ae	// ® -> ®
+00af	00af	// ¯ -> ¯
 00b0	00b0	// ° -> °
 00b2	00b2	// ² -> ²
 00b3	00b3	// ³ -> ³
@@ -818,7 +819,6 @@ DEADKEY	0309
 0153	0153	// œ -> œ
 02c6	02c6	// ˆ -> ˆ
 02c7	02c7	// ˇ -> ˇ
-02c9	02c9	// ˉ -> ˉ
 02d8	02d8	// ˘ -> ˘
 02d9	02d9	// ˙ -> ˙
 02da	02da	// ˚ -> ˚
@@ -948,6 +948,7 @@ DEADKEY	0323
 00ab	00ab	// « -> «
 00ac	00ac	// ¬ -> ¬
 00ae	00ae	// ® -> ®
+00af	00af	// ¯ -> ¯
 00b0	00b0	// ° -> °
 00b2	00b2	// ² -> ²
 00b3	00b3	// ³ -> ³
@@ -998,7 +999,6 @@ DEADKEY	0323
 0153	0153	// œ -> œ
 02c6	02c6	// ˆ -> ˆ
 02c7	02c7	// ˇ -> ˇ
-02c9	02c9	// ˉ -> ˉ
 02d8	02d8	// ˘ -> ˘
 02d9	02d9	// ˙ -> ˙
 02da	02da	// ˚ -> ˚
@@ -1162,7 +1162,7 @@ KEYNAME_EXT
 KEYNAME_DEAD
 
 02dd	"DOUBLEACUTE"
-02c9	"MACRON"
+00af	"MACRON"
 00b8	"CEDILLA"
 02c6	"CIRCUMFLEX"
 031b	"HORN"
