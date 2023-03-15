@@ -10,5 +10,4 @@ Liberties taken:<br>
 - dead tilde + `=` now yields `≈`, and the `≃` composition has been moved to dead tilde + `-` per AFNOR NF Z71-300
 
 ## Building
-Compilation requires Microsoft Keyboard Layout Creator (MSKLC) which can be obtained from the link below:<br>
-https://www.microsoft.com/en-us/download/details.aspx?id=102134
+Compilation requires KbdEdit which can be obtained [here](http://www.kbdedit.com/).
