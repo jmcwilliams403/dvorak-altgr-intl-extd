@@ -1,4 +1,4 @@
-KBD	kbddvagx	"United States-Dvorak, intl., with AltGr dead keys"
+KBD	usdvagrx	"United States-English (Dvorak, intl., with AltGr dead keys)"
 
 COPYRIGHT	"(c) 2022"
 
@@ -1184,7 +1184,7 @@ KEYNAME_DEAD
 
 DESCRIPTIONS
 
-0409	United States-Dvorak, intl., with AltGr dead keys
+0409	United States-English (Dvorak, intl., with AltGr dead keys)
 
 LANGUAGENAMES
 
