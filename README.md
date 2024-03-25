@@ -8,6 +8,8 @@ Liberties taken:<br>
     - Superscript 1 has swapped positions with inverted exclamation mark.
     - Dead hook has swapped positions with inverted question mark.
     - The generic currency symbol has swapped positions with the Pound Sterling sign.
+    - `“`Double curly quotaton marks`”` have been replaced with `‹`single angle quotation marks`›`.
+      - Curly quotes remain accessible via dead acute/diaeresis + `<`/`>`.
   * Various dead key QOL optimizations:
     - Additional diacritics available from existing dead keys:
       - Dead macron also functions as dead belowmacron.
