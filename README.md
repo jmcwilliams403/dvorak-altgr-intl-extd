@@ -7,6 +7,9 @@ Liberties taken:<br>
   * Changes from core layout:
     - Superscript 1 (`¹`) has swapped positions with inverted exclamation mark (`¡`).
     - Dead hook has swapped positions with inverted question mark (`¿`).
+    - Dead cedilla and dead caron have been moved to AltGr + `,`/`<`, replacing `Ç`/`ç`.
+      - AltGr + Shift + `5` produces Permille sign (`‰`).
+      - AltGr + Shift + `.` produces a duplicate dead circumflex.
     - The generic currency symbol (`¤`) has swapped positions with the Pound Sterling sign (`£`).
     - AltGr + Shift + `S` produces Capital Sharp S (`ẞ`).
       - Section Sign (`§`) has been moved to AltGr + Shift + `;`.
