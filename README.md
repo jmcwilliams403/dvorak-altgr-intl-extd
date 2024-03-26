@@ -13,7 +13,7 @@ Liberties taken:<br>
     - The generic currency symbol (`¤`) has swapped positions with the Pound Sterling sign (`£`).
     - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> produces Capital Sharp S (`ẞ`).
       - Section Sign (`§`) has been moved to <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>;:</kbd>.
-    - `“`Double curly quotaton marks`”` have been replaced with `‹`single angle quotation marks`›`.
+    - `“` Double curly quotaton marks `”` have been replaced with `‹` single angle quotation marks `›`.
       - Curly quotes remain accessible via dead acute/diaeresis + `<`/`>`.
   * Various dead key QOL optimizations:
     - Additional diacritics available from existing dead keys:
