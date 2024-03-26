@@ -14,7 +14,7 @@ Liberties taken:<br>
     - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> produces Capital Sharp S (`ẞ`).
       - Section Sign (`§`) has been moved to <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>;:</kbd>.
     - `“`Double curly quotaton marks`”` have been replaced with `‹`single angle quotation marks`›`.
-      - Curly quotes remain accessible via dead acute/diaeresis + <kbd><</kbd>/<kbd>></kbd>.
+      - Curly quotes remain accessible via dead acute/diaeresis + `<`/`>`.
   * Various dead key QOL optimizations:
     - Additional diacritics available from existing dead keys:
       - Dead macron also functions as dead belowmacron.
