@@ -5,11 +5,11 @@ This is a Windows port of the Linux/Unix implementation of Dvorak International,
 
 Liberties taken:<br>
   * Changes from core layout:
-    - Superscript 1 has swapped positions with inverted exclamation mark.
-    - Dead hook has swapped positions with inverted question mark.
-    - The generic currency symbol has swapped positions with the Pound Sterling sign.
+    - Superscript 1 (`¹`) has swapped positions with inverted exclamation mark (`¡`).
+    - Dead hook has swapped positions with inverted question mark (`¿`).
+    - The generic currency symbol (`¤`) has swapped positions with the Pound Sterling sign (`£`).
     - AltGr + Shift + `S` produces Capital Sharp S (`ẞ`).
-      - Section Sign has been moved to AltGr + Shift + `;`.
+      - Section Sign (`§`) has been moved to AltGr + Shift + `;`.
     - `“`Double curly quotaton marks`”` have been replaced with `‹`single angle quotation marks`›`.
       - Curly quotes remain accessible via dead acute/diaeresis + `<`/`>`.
   * Various dead key QOL optimizations:
