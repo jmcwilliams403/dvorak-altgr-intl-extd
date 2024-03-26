@@ -7,14 +7,14 @@ Liberties taken:<br>
   * Changes from core layout:
     - Superscript 1 (`¹`) has swapped positions with inverted exclamation mark (`¡`).
     - Dead hook has swapped positions with inverted question mark (`¿`).
-    - Dead cedilla and dead caron have been moved to AltGr + `,`/`<`, replacing `Ç`/`ç`.
-      - AltGr + Shift + `5` produces Permille sign (`‰`).
-      - AltGr + Shift + `.` produces a duplicate dead circumflex.
+    - Dead cedilla and dead caron have been moved to <kbd>AltGr</kbd> + <kbd>,<</kbd>, replacing `Ç`/`ç`.
+      - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>5%</kbd> produces Permille sign (`‰`).
+      - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>.<</kbd> produces a duplicate dead circumflex.
     - The generic currency symbol (`¤`) has swapped positions with the Pound Sterling sign (`£`).
-    - AltGr + Shift + `S` produces Capital Sharp S (`ẞ`).
-      - Section Sign (`§`) has been moved to AltGr + Shift + `;`.
+    - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> produces Capital Sharp S (`ẞ`).
+      - Section Sign (`§`) has been moved to <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>;:</kbd>.
     - `“`Double curly quotaton marks`”` have been replaced with `‹`single angle quotation marks`›`.
-      - Curly quotes remain accessible via dead acute/diaeresis + `<`/`>`.
+      - Curly quotes remain accessible via dead acute/diaeresis + <kbd><</kbd>/<kbd>></kbd>.
   * Various dead key QOL optimizations:
     - Additional diacritics available from existing dead keys:
       - Dead macron also functions as dead belowmacron.
@@ -24,7 +24,7 @@ Liberties taken:<br>
       - Dead acute + `Ó`/`ó`/`Ú`/`ú` produces `Ő`/`ő`/`Ű`/`ű`.
       - Dead abovedot + `U`/`u` produces `Ů`/`ů`.
       - Dead hook + `N`/`n` produces Eng (`Ŋ`/`ŋ`).
-      - Dead hook + AltGr + `Y`/`y` produces `Ƴ`/`ƴ`.
+      - Dead hook + <kbd>AltGr</kbd> + `Y`/`y` produces `Ƴ`/`ƴ`.
       - Dead tilde + `=` produces `≅`.
       - Dead stroke + `U`/`u` produces `Ꞹ`/`ꞹ`.
 
