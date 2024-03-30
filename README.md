@@ -6,10 +6,12 @@ This is a Windows port of the Linux/Unix implementation of Dvorak International,
 Liberties taken:<br>
   * Changes from core layout:
     - Superscript 1 (`¹`) has swapped positions with inverted exclamation mark (`¡`).
-    - Dead hook has swapped positions with inverted question mark (`¿`).
-    - Dead cedilla and dead caron have been moved to <kbd>AltGr</kbd> + <kbd>,<</kbd>, replacing `Ç`/`ç`.
-      - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>5%</kbd> produces Permille sign (`‰`).
-      - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>.<</kbd> produces a duplicate dead circumflex.
+    - Dead hook has been replaced with dead stroke and has swapped positions with inverted question mark (`¿`).
+      - Dead hook has been moved to <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>3#</kbd>.
+      - Dead macron has been moved to <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>-_</kbd>.
+      - Dead belowdot has been moved to <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>5%</kbd>.
+      - Dead cedilla and dead caron have been moved to <kbd>AltGr</kbd> + <kbd>,<</kbd>, replacing `Ç`/`ç`.
+      - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>.<</kbd> now produces a duplicate dead circumflex.
     - The generic currency symbol (`¤`) has swapped positions with the Pound Sterling sign (`£`).
     - <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> produces Capital Sharp S (`ẞ`).
       - Section Sign (`§`) has been moved to <kbd>AltGr</kbd> + <kbd>Shift</kbd> + <kbd>;:</kbd>.
